@@ -9,6 +9,7 @@ int main()
         z = 0;
         
         z = x + y;
+        z = x - y;
         
         printf("%i\n", z);
         
