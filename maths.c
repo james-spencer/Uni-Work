@@ -2,18 +2,24 @@
 
 int main()
 {
-        int x, y, z;
+        int x, y, a, b, c, d;
         
         x = 10;
         y = 5;
-        z = 0;
+        a = 0;
+        b = 0;
+        c = 0;
+        d = 0;
         
-        z = x + y;
-        z = x - y;
-        z = x * y;
-        z = x / y;
+        a = x + y;
+        b = x - y;
+        c = x * y;
+        d = x / y;
         
-        printf("%i\n", z);
+        printf("%i\n", a);
+        printf("%i\n", b);
+        printf("%i\n", c);
+        printf("%i\n", d);
         
         return 0;
 }
