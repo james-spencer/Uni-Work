@@ -10,6 +10,7 @@ int main()
         
         z = x + y;
         z = x - y;
+        z = x * y;
         
         printf("%i\n", z);
         
