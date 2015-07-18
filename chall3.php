@@ -43,16 +43,16 @@ else {
         $output_table .= '</tr>';
     }
 }
-    $output_page = null;
-    // function to generate a random number between passed limits
-    function generate_random_number($p_min, $p_max) // formal parameters
-    {
-        $m_rand_num = rand($p_min, $p_max);
-        return $m_rand_num;
-    }
+$output_page = null;
+// function to generate a random number between passed limits
+function generate_random_number($p_min, $p_max) // formal parameters
+{
+    $m_rand_num = rand($p_min, $p_max);
+    return $m_rand_num;
+}
 
-   // $random_number_one = generate_random_number($validated_min_num, $validated_max_num); // actual parameters
-   // $random_number_two = generate_random_number($validated_min_num, $validated_max_num); // actual parameters
+// $random_number_one = generate_random_number($validated_min_num, $validated_max_num); // actual parameters
+// $random_number_two = generate_random_number($validated_min_num, $validated_max_num); // actual parameters
 
 $output_page = <<< HTMLOUTPUT
 <!DOCTYPE html PUBLIC "//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1strict.dtd">
